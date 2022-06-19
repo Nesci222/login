@@ -1,0 +1,85 @@
+body {
+    background-image: url(fondo.jpg) ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contenedorlogin {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    background-color: #980164;
+    border-radius: 15px;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 100px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+@media (max-width: 799px) {
+    .contenedorlogin {
+        width: 300px;
+        height: 600px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+.contenedorlogin h3 {
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.contenedorlogin label {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.contenedorlogin input {
+    border-radius: 5px;
+    height: 40px;
+    margin: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 2px white solid;
+    transition-timing-function: 2s;
+}
+
+.contenedorlogin p {
+    text-align: center;
+    color: white;
+}
+
+.contenedorlogin button {
+    text-align: center;
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: 2px white solid;
+    padding: 5px;
+    transition-duration: 2s;
+}
+
+.contenedorlogin button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.contenedorlogin a {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
